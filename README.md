@@ -10,6 +10,7 @@ First, create an environment and start it:
 
 ```bash
 python -m venv env
+cd env/
 source bin/activate
 ```
 
