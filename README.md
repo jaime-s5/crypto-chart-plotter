@@ -23,9 +23,12 @@ pip install -r requirements.txt
 
 ### Chart(pair, [, options])
 
-Creates a chart with the given crypto pair, if no optional parameters are given, it will default to the last day, if no interval is given, it will selecte it automatically.
+Creates a chart with the given crypto pair, if no optional parameters are given, it will default to the last day, if no interval is given, it will select it automatically.
 
-- `pair`: `<str>` Symbol of the cripto-coin pair '<crypto>eur'
+The chart has two subtraces, in the upper trace, the candlestick chart and in the
+lower trace, the volume chart.
+
+- `pair`: `<str>` Symbol of the cripto-coin pair '\<crypto>eur'
 - `options`:
   - `start_date`: `<str>` Start date for the chart 'dd/mm/YYYY'
   - `end_date`: `<str>`End date for the chart 'dd/mm/YYYY'
@@ -57,12 +60,12 @@ Displays chart in selected browser
 
 ### Chart.save_chart_as_png()
 
-Saves chart as png format
+Saves chart in a png file
 
 - `returns`: `<None>`
 
 ### Chart.save_chart_as_html()
 
-Saves chart as html format
+Saves chart in an html file
 
 - `returns`: `<str>` Returns the html file path
