@@ -9,15 +9,15 @@ A Python module that creates a chart of a crypto coin from data in the Kraken ma
 First, create an environment and start it:
 
 ```bash
-python -m venv env
-cd env/
-source bin/activate
+$ python -m venv env
+$ cd env/
+$ source bin/activate
 ```
 
 Then install all the requirements needed for the module:
 
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Documentation
