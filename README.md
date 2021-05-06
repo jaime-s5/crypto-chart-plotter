@@ -22,6 +22,8 @@ $ pip install -r requirements.txt
 
 ## Documentation
 
+The data for the chart is requested using the [Cryptowatch API](https://docs.cryptowat.ch/rest-api/markets/ohlc) and is, by default, from the Kraken market.
+
 ### Chart(pair, [, options])
 
 Creates a chart with the given crypto pair, if no optional parameters are given, it will default to the last day, if no interval is given, it will select it automatically.
